@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(118, 243, 199);
+}
+
+.grocery__main-block {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 80vh;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.grocery__title {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.grocery__list-block{
+    max-height: 70%;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.grocery__list-input-block {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.grocery__list-input {
+    font-size: 15px;
+    width: 90%;
+    height: 28px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grocery__list-input:focus-visible{
+    outline: 0;
+}
+
+.grocery__buttons-block{
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.grocery__add-button{
+    font-size: 15px;
+    color: #fff;
+    background: #66bb6a;
+    border: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.grocery__add-button:hover{
+    background: #3ba641;
+    transition: 0.5s ease;
+}
