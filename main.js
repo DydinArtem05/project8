@@ -48,8 +48,7 @@ function addClickEventListeners() {
                 item.style.textDecoration = "none";
             }
             
-            const groceryItems = listBlock.innerHTML;
-            localStorage.setItem("groceryItems", groceryItems);
+            localStorage.setItem("groceryItems", listBlock.innerHTML);
         });
     });
 }
